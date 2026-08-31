@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Get a Quote | Precision Built PCs</title>
+  <meta name="description" content="Request a custom PC build, upgrade, repair or parts advice quote from Precision Built PCs."><meta name="theme-color" content="#07101b"><link rel="icon" href="assets/logo.svg"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav"><div class="container nav-inner"><a class="brand" href="index.html"><img src="assets/logo.svg" alt="Precision Built PCs"></a><button class="mobile-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button><nav class="nav-links"><a href="index.html#services">Services</a><a href="index.html#builds">PCs</a><a href="index.html#process">How it works</a><a class="btn nav-btn" href="quote.html">Get a Quote</a></nav></div></header>
+<main class="quote-wrap"><div class="container quote-grid">
+  <section class="quote-info"><span class="section-kicker">FREE QUOTE REQUEST</span><h1 class="section-title">Tell us what you need.</h1><p class="section-lead">Fill this in once and the request is sent to <strong>zackerycarter83@gmail.com</strong>. You will stay on the site after sending.</p>
+    <div class="info-panel"><h3>Helpful information</h3><p><strong>New build:</strong> budget, games/programs, target resolution and whether you need Wi-Fi.</p><p><strong>Upgrade:</strong> current CPU, GPU, RAM, power supply and what you want improved.</p><p><strong>Repair:</strong> symptoms, error messages and what happened before the issue started.</p></div>
+    <figure class="quote-photo"><img src="https://images.pexels.com/photos/29177041/pexels-photo-29177041.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Desktop PC with internal components visible"></figure>
+  </section>
+  <section class="quote-form"><div id="form-alert" class="alert" role="status" aria-live="polite"></div>
+    <form id="quote-form" action="https://formsubmit.co/ajax/zackerycarter83@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Precision Built PCs quote request"><input type="hidden" name="_template" value="table"><input type="hidden" name="_captcha" value="false"><input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+      <div class="field-grid">
+        <div class="field"><label for="name">Name *</label><input id="name" name="Name" required autocomplete="name" placeholder="Your name"></div>
+        <div class="field"><label for="email">Email *</label><input id="email" type="email" name="email" required autocomplete="email" placeholder="you@example.com"></div>
+        <div class="field"><label for="phone">Phone</label><input id="phone" type="tel" name="Phone" autocomplete="tel" placeholder="Optional"></div>
+        <div class="field"><label for="service">What do you need? *</label><select id="service" name="Service" required><option value="">Choose one</option><option>New custom PC</option><option>PC upgrade</option><option>Repair / troubleshooting</option><option>Parts advice</option><option>Other</option></select></div>
+        <div class="field"><label for="budget">Budget (AUD)</label><input id="budget" name="Budget" placeholder="e.g. $1,500"></div>
+        <div class="field"><label for="timeframe">Timeframe</label><select id="timeframe" name="Timeframe"><option>Not urgent</option><option>Within 2 weeks</option><option>Within 1 week</option><option>As soon as possible</option></select></div>
+        <div class="field full"><label for="use">Games, programs or goal</label><input id="use" name="Main use" placeholder="e.g. Fortnite at 1440p, school work, editing"></div>
+        <div class="field full"><label for="specs">Current PC specs (if applicable)</label><input id="specs" name="Current specs" placeholder="CPU, GPU, RAM, PSU, storage — leave blank if unknown"></div>
+        <div class="field full"><label for="message">Details *</label><textarea id="message" name="Details" required placeholder="Tell us what you want built, upgraded or repaired..."></textarea></div>
+      </div>
+      <button class="btn submit-btn" type="submit"><span>Send quote request</span></button>
+      <p class="privacy-note">Your details are sent to Precision Built PCs so we can respond to your quote. The form is delivered through FormSubmit.</p>
+    </form>
+  </section>
+</div></main>
+<footer><div class="container footer-grid"><div class="footer-brand"><img src="assets/logo.svg" alt="Precision Built PCs"><p>Custom PCs • Upgrades • Repairs</p></div><div><strong>Contact</strong><a href="mailto:zackerycarter83@gmail.com">zackerycarter83@gmail.com</a></div><div class="small">© <span data-year></span> Precision Built PCs.</div></div></footer>
+<script src="script.js"></script>
+</body></html>
